@@ -123,13 +123,14 @@ nav ul li {
 /* ---- slider section styles   ---------------------------------------------------------------------------- */
 
 #logo {
-  width: 60%;
-  height: 30vh;
-  background-image: url('img/Kouba_logo.png');
+  width: 80%;
+  height: 45vh;
+  background-image: url('img/Kouba_logo_white.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  /* opacity: 0.6; */
+  opacity: 0.6;
+  
 }
 
 .slide {
