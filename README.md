@@ -12,6 +12,6 @@ Projest is created with:
 
 ## Author
 
-Justyna Zinkiewicz-Grochot
+Justyna Zinkiewicz-Grochot (page design, logo graphic design and page development)
 
 
