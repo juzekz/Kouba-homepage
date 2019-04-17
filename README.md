@@ -5,7 +5,7 @@ This is a singlepage homepage of a pottery artist. It is supposed to be a concis
 
 ## Technologies
 
-## Projest is created with:
+Projest is created with:
 * HTML
 * CSS
 * ES6
