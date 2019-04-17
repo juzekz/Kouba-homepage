@@ -66,12 +66,13 @@ this.style.transition('')
 
 //scrolling to the elements of the page
 
-const navElement = document.querySelector('.navElement');
+// const navElement = document.querySelector('.navElement');
 const navAbout = document.querySelector('.navAbout');
 const navWorkshops= document.querySelector('.navWorkshops');
 const navContact = document.querySelector('.navContact');
-const arrowUp = document.querySelectorAll('.arrow_up');
+const arrowUp = document.querySelector('.arrow_up');
 const header = document.querySelector('header');
+const welcome = document.querySelector('.welcome');
 
 const navElements = [navAbout, navWorkshops, navContact, arrowUp];
 
@@ -81,14 +82,14 @@ const contactSection = document.querySelector('.contactSection');
 
 const pageSections = [aboutSection, workshopsSection, contactSection, header]; 
 
-
+//scrollin func definition
 function scrollIt(element) {  
     window.scrollTo({
       'behavior': 'smooth',
       'left': 0,
       'top': element.offsetTop
     });
-  }
+  };
 
 navElements[0].addEventListener('click', () => {
     scrollIt(pageSections[0]);
@@ -98,11 +99,17 @@ navElements[1].addEventListener('click', () => {
     scrollIt(pageSections[1]);
   });
 
-  console.log(arrowUp.toArray());
-  //tu trzeba zrobić jakąś pętlę przez te arrowup
+  navElements[2].addEventListener('click', () => {
+    scrollIt(pageSections[2]);
+  });
+  
 navElements[3].addEventListener('click', () => {
     scrollIt(pageSections[3]);
   });
+
+welcome.addEventListener('click', () => {
+    scrollIt(pageSections[3]);
+})
 
 
 }); //end

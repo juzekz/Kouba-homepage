@@ -284,9 +284,16 @@ header {
 }
 
 .portrait-2 {
-  background-image: url('img/Gryzelda.jpg');
-  background-position: 25px;
-  opacity: 0.5;
+  background-image: url('img/wheel.jpg');
+  background-position: -268px -75px;
+  background-size: 200%;
+}
+
+
+.portrait-3 {
+  background-image: url('img/workshop.jpg');
+  /* background-position: -268px -75px;
+  background-size: 200%; */
 }
 
 .arrow_up {
